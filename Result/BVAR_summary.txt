@@ -1,0 +1,65 @@
+Call:
+bvar_minnesota(y = r_df, p = 4, bayes_spec = set_bvar(sigma = apply(r_df, 
+    2, sd), lambda = 0.2, delta = rep(0, 4), eps = 1e-04), include_mean = TRUE)
+
+BVAR(4) with Minnesota Prior
+====================================================
+
+A ~ Matrix Normal (Mean, Precision, Scale = Sigma)
+====================================================
+Matrix Normal Mean for A1 part:
+           RGDP_1  Per_Cons_1  Gov_Exp_1    Taxes_1
+RGDP      0.08087     0.07308   0.011485  -0.009672
+Per_Cons  0.19577    -0.13055   0.003885  -0.014548
+Gov_Exp   0.19160    -0.10312   0.421879   0.004936
+Taxes     7.43214     1.92884  -1.973954   0.134533
+
+
+Matrix Normal Mean for A2 part:
+            RGDP_2  Per_Cons_2  Gov_Exp_2     Taxes_2
+RGDP       0.11467     0.05053    -0.0128   0.0009809
+Per_Cons   0.16645    -0.11222    -0.0675   0.0014064
+Gov_Exp    0.04801     0.01400     0.1187   0.0008009
+Taxes     -4.52800    -2.05657     1.0753  -0.1473437
+
+
+Matrix Normal Mean for A3 part:
+            RGDP_3  Per_Cons_3   Gov_Exp_3    Taxes_3
+RGDP      -0.06361     0.03661  -0.0009862  -0.001472
+Per_Cons  -0.08205    -0.05521   0.0173498  -0.002850
+Gov_Exp    0.05693    -0.02940   0.0186414   0.001228
+Taxes      0.20008    -0.33706   0.0070413   0.152437
+
+
+Matrix Normal Mean for A4 part:
+            RGDP_4  Per_Cons_4  Gov_Exp_4   Taxes_4
+RGDP      -0.03492    0.023085  -0.002503  0.002379
+Per_Cons  -0.08294    0.137783   0.030117  0.002377
+Gov_Exp    0.08391    0.008985  -0.011375  0.001858
+Taxes      1.99497    1.289162  -0.169010  0.046227
+
+
+Matrix Normal Mean for constant part:
+    RGDP  Per_Cons   Gov_Exp     Taxes  
+ 0.56179   0.68134   0.08237  -4.60918  
+
+
+dim(Matrix Normal precision matrix):
+[1]  17  17
+
+
+Sigma ~ Inverse-Wishart
+====================================================
+IW scale matrix:
+             RGDP  Per_Cons  Gov_Exp     Taxes
+RGDP       356.67    252.51    56.57    1030.3
+Per_Cons   252.51    509.21   -72.17     537.1
+Gov_Exp     56.57    -72.17   540.70     185.1
+Taxes     1030.27    537.13   185.14  104277.3
+
+IW degrees of freedom:
+[1] 315
+
+
+--------------------------------------------------
+*_j of the Coefficient matrix: corresponding to the j-th BVAR lag
