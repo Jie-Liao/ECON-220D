@@ -9,7 +9,7 @@ Link: https://fred.stlouisfed.org
 Help: https://fredhelp.stlouisfed.org
 This data may be copyrighted. Please refer to the Terms of Use:
 https://fred.stlouisfed.org/legal#fred-terms-faq
-File Created: 2025-11-01 5:12 pm CDT
+File Created: 2025-11-01 5:41 pm CDT
 ----------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------  ---------------  ----------
@@ -197,23 +197,23 @@ Guide to the National Income and Product Accounts of the United States
 (NIPA). For more information, please visit the Bureau of Economic
 Analysis (http://www.bea.gov/national/pdf/nipaguid.pdf).
 Series ID                                                                                                    Real Time Start  Period End
-PCE                                                                                                          2025-09-26       Current
+PCEC                                                                                                         2025-09-25       Current
 Title
-Personal Consumption Expenditures                                                                            2025-09-26       Current
+Personal Consumption Expenditures                                                                            2025-09-25       Current
 Source
-U.S. Bureau of Economic Analysis                                                                             2025-09-26       Current
+U.S. Bureau of Economic Analysis                                                                             2025-09-25       Current
 Release
-Personal Income and Outlays                                                                                  2025-09-26       Current
+Gross Domestic Product                                                                                       2025-09-25       Current
 Units
-Billions of Dollars                                                                                          2025-09-26       Current
+Billions of Dollars                                                                                          2025-09-25       Current
 Frequency
-Monthly                                                                                                      2025-09-26       Current
+Quarterly                                                                                                    2025-09-25       Current
 Seasonal Adjustment
-Seasonally Adjusted Annual Rate                                                                              2025-09-26       Current
+Seasonally Adjusted Annual Rate                                                                              2025-09-25       Current
 Notes
-BEA Account Code: DPCERC A Guide to the National Income and Product                                          2025-09-26       Current
-Accounts of the United States
-(http://www.bea.gov/national/pdf/nipaguid.pdf) (NIPA).
+BEA Account Code: DPCERC  A Guide to the National Income and Product                                         2025-09-25       Current
+Accounts of the United States (NIPA) -
+(http://www.bea.gov/national/pdf/nipaguid.pdf)
 Series ID                                                                                                    Real Time Start  Period End
 UNRATE                                                                                                       2025-09-05       Current
 Title
